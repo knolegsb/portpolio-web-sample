@@ -1,11 +1,158 @@
 ﻿<!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+ <!--<![endif]-->
+
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Somebody's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, meximum-scale=1" />
+
+    <link href="http://fonts.googleapis.com/css?family=alfa+One" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+
 </head>
 <body>
+    <header class="header">
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+    </header>
 
+    <form class="content container clearfix">
+        <input class="nav-menu" id="all" type="radio" name="filter" checked="checked" />
+        <label for="all">All</label>
+
+        <input class="nav-menu" id="illustrations" type="radio" name="filter" />
+        <label for="illustrations">Illustrations</label>
+
+        <input class="nav-menu" id="posters" type="radio" name="filter" />
+        <label for="posters">Posters Design</label>
+
+        <input class="nav-menu" id="typography" type="radio" name="filter" />
+        <label for="typography">Typography</label>
+
+        <input class="nav-menu" id="packaging" type="radio" name="filter" />
+        <label for="packaging">Packaging</label>
+
+        <section class="portfolio">
+            <figure class="four columns all poster" data-category="poster">
+                <img src="images/image-1.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="images/image-2.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all poster" data-category="poster">
+                <img src="images/image-3.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all typography" data-category="typography">
+                <img src="images/image-4.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="images/image-5.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all poster" data-category="poster">
+                <img src="images/image-6.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="images/image-7.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all typography" data-category="typography">
+                <img src="images/image-8.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all package" data-category="package">
+                <img src="images/image-9.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all poster" data-category="poster">
+                <img src="images/image-10.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all package" data-category="package">
+                <img src="images/image-11.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="images/image-12.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+        </section>
+    </form>
+
+    <footer class="footer container clearfix">
+        <div class="contact">
+            <ul>
+                <li class="contact-name">John Someone</li>
+                <li class="contact-phone">714-837-7048</li>
+                <li class="contact-email">seon2you@hotmail.com</li>
+            </ul>
+        </div>
+        <div class="social">
+            <small class="copyright">Copyright John Someone 2015</small>
+            <ul>
+                <li class="social-dribbble"><a href="#">Dribbble</a></li>
+                <li class="social-facebook"><a href="#">Facebook</a></li>
+                <li class="social-twitter"><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
