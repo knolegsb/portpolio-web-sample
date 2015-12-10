@@ -180,6 +180,11 @@ label {
 .contact, .contact a {
 	color: #ccc;
 }
+
+.contact li:hover {
+    color: #000000;
+}
+
 .contact ul li:before {
 	content: '';
 	display: inline-block;
@@ -200,9 +205,9 @@ label {
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-	label {
+	/*label {
 		display: none;
-	}
+	}*/
 
 	.container {
 		width: 100%;
